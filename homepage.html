@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wiki</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background-color: red;
+      color: white;
+    }
+
+    .nav {
+      width: 25%;
+      position: fixed;
+      background-color: #297e27;
+      color: black;
+      height: 100vh;
+      padding: 10px;
+    }
+
+    .content {
+      margin-left: 30%;
+      padding: 15px;
+      min-height: 100vh;
+    }
+
+    .articulo {
+      background: rgb(255, 255, 255);
+      color: black;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nav">
+    <h3>Menú</h3>
+    <p>Inicio</p>
+    <p>Wiki</p>
+    <p>Cards</p>
+  </div>
+
+  <div class="content">
+    <div class="articulo">
+      <h2>Artículo 1</h2>
+      <p><html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colección de Cromos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #050048;
+      margin: 0;
+      padding: 55px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(40x, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #580000;
+      width: 210px;
+      height: 380px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .card-content {
+      padding: 5px;
+      flex-grow: 1;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    .card-desc {
+      font-size: 0.9rem;
+      color: #ffffff;
+    }
+
+    .card-footer {
+      text-align: center;
+      padding: 5px;
+      background: #313e00;
+      font-size: 0.8rem;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <!-- 11 Cromos con fotos reales de jugadores del Barça 2010 -->
+
+  <div class="card">
+    <img src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/902_valdes_victor.jpg" alt="Valdés" />
+    <div class="card-content">
+      <div class="card-title">Víctor Valdés</div>
+      <div class="card-desc">Portero titular del FC Barcelona en 2010, seguro y ágil bajo los palos.</div>
+    </div>
+    <div class="card-footer">Hecho por Ruben Mena</div>
+  </div>
+
+  <div class="card">
+    <img src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/31-Alves.jpg" alt="Dani Alves" />
+    <div class="card-content">
+      <div class="card-title">Dani Alves</div>
+      <div class="card-desc">Lateral derecho ofensivo, pieza clave en el sistema de Guardiola.</div>
+    </div>
+    <div class="card-footer">Hecho por Ruben Mena</div>
+  </div>
+
+  <div class="card">
+    <img src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/PIQU%C3%89-min.jpg" alt="Piqué" />
+    <div class="card-content">
+      <div class="card-title">Gerard Piqué</div>
+      <div class="card-desc">Central líder, con gran salida de balón y presencia defensiva.</div>
+    </div>
+    <div class="card-footer">Hecho por Ruben Mena</div>
+  </div>
+
+  <div class="card">
+    <img src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/704_puyol.jpg" alt="Puyol" />
+    <div class="card-content">
+      <div class="card-title">Carles Puyol</div>
+      <div class="card-desc">Capitán y símbolo del Barça, fuerza, entrega y liderazgo.</div>
+    </div>
+    <div class="card-footer">Hecho por Ruben Mena</div>
+  </div>
+
+  <div class="card">
+    <img src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/3-Abidal.jpg" alt="Abidal" />
+    <div class="card-content">
+      <div class="card-title">Eric Abidal</div>
+      <div class="card-desc">Lateral elegante y seguro, fundamental en defensa.</div>
+    </div>
+    <div class="card-footer">Hecho por Ruben Mena</div>
+  </div>
+
+  <div class="card">
+    <img src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/BUSQUETS-min.jpg" alt="Busquets" />
+    <div class="card-content">
+      <div class="card-title">Sergio Busquets</div>
+      <div class="card-desc">El mediocentro que daba equilibrio al mejor Barça de la historia.</div>
+    </div>
+    <div class="card-footer">Hecho por Ruben Mena</div>
+  </div>
+
+  <div class="card">
+    <img src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/949_xavi.jpg" alt="Xavi" />
+    <div class="card-content">
+      <div class="card-title">Xavi Hernández</div>
+      <div class="card-desc">Cerebro del equipo, maestro del pase y del control del partido.</div>
+    </div>
+    <div class="card-footer">Hecho por Ruben Mena</div>
+  </div>
+
+  <div class="card">
+    <img src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/INIESTA%202017-18.jpg" alt="Iniesta" />
+    <div class="card-content">
+      <div class="card-title">Andrés Iniesta</div>
+      <div class="card-desc">Mago del balón, pura creatividad y talento.</div>
+    </div>
+    <div class="card-footer">Hecho por Ruben Mena</div>
+  </div>
+
+  <div class="card">
+    <img src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/MESSI.jpg" alt="Messi" />
+    <div class="card-content">
+      <div class="card-title">Lionel Messi</div>
+      <div class="card-desc">El mejor jugador del mundo, decisivo y único.</div>
+    </div>
+    <div class="card-footer">Hecho por Ruben Mena</div>
+  </div>
+
+  <div class="card">
+    <img src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/660_pedro.jpg" alt="Pedro" />
+    <div class="card-content">
+      <div class="card-title">Pedro Rodríguez</div>
+      <div class="card-desc">Extremo veloz, inteligente y con gran olfato goleador.</div>
+    </div>
+    <div class="card-footer">Hecho por Ruben Mena</div>
+  </div>
+
+  <div class="card">
+    <img src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/931_villa.jpg" alt="Villa" />
+    <div class="card-content">
+      <div class="card-title">David Villa</div>
+      <div class="card-desc">Delantero letal, clave en la delantera del Barça campeón.</div>
+    </div>
+    <div class="card-footer">Hecho por Ruben Mena</div>
+  </div>
+
+</body>
+</html>.</p>
+    </div>
+
+    <div class="articulo">
+      <h2>Artículo 2</h2>
+      <p><html>
+<head>
+    <title>Rhodocollybia maculata</title> 
+</head>
+<body>
+    <h1>Rhodocollybia maculata</h1>
+    <img src="https://lacasadelassetas.com/blog/wp-content/uploads/2024/04/ultzama-04.jpg">
+</body>
+
+<ul>
+    <li><a href="#description">Descripción</a></li>
+    <li><a href="#Editibility">Editibility</a></li>
+    <li><a href="#Distribution and habitat">Distribution and habitat</a></li> 
+</ul>
+
+
+    <p>Rhodocollybia maculata, commonly known as the spotted toughshank, is a species of 
+    basidiomycete fungus in the family Omphalotaceae. R. maculata is a source of collybolide, a 
+    sesquiterpenoid containing a furyl--lactone motif reminiscent of salvinorin A.</p>
+
+<h2>Description</h2>
+    <p>he cap is up to 9 centimetres (3+1⁄2 in) wide and cream-colored with red-brown spots.[3] The 
+    edge remains inrolled for an extended period of time. The whitish gills are crowded, becoming 
+    spotted in age. The similarly colored stipe is up to 10 cm long, tough, hollow, and tapered 
+    downwards. The spore print is whitish to yellowish.</p>
+    <P>A variety known as scorzonerea is characterized by yellowish color of its gills, and sometimes the 
+    stipe.</P>
+
+<h3>Distribution and habitat</H3>
+    <p> It is widespread in <a href="">North America</a>. It often appears in decomposing conifer duff</p>
+
+<H4>Edibility</H4>
+
+    <P>Though non-toxic, this species is considered inedible due to its toughness and unpalatability; it is 
+    typically bitter.</P>
+    <P> Kappa-opioid receptor agonism
+    Main article: <a href="">collybolide</a></P>
+    <P>In 2016, Gupta et al. reported that collybolide exhibited high-potency, selective kappa-opioid 
+    receptor (KOR) agonism. Due to its attractive bioactivity and chemical similarity to salvinorin A, 
+    collybolide garnered attention in the synthetic chemistry and pharmacology fields as a potential </P>
+
+<p>scaffold for developing next-generation analgesics, antipruritics, and antidepressants.
+ In 2022, Shevick et al. completed the first enantioselective total synthesis of collybolide and 
+profiled the activity of synthetic collybolide at the KOR. Despite previous findings by Gupta et al., 
+these assays showed that neither enantiomer of collybolide had KOR activity. The synthetic 
+sample was identical to natural collybolide isolated from R. maculata. Assays of crude R. maculata 
+extracts by other groups additionally showed no KOR activity. These assays of synthetic and 
+natural samples contradict the findings of Gupta et al., and suggest that collybolide and the other 
+constituents of R. maculata have no activity at KOR.</p></p>
+    </div>
+  </div>
+
+</body>
+</html>
+
